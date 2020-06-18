@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .top-bar {
+      background-color: rgba(215, 215, 215, 0.8);
+      padding: 2%;
+      text-align: center;
+    }
+    .title {
+      font-size: 50px;
+      display: block;
+      letter-spacing: 6px;
+    }
+    .header {
+      text-align: center;
+    }
+    .description {
+      text-align: center;
+      padding: 0 10%;
+    }
+    .about {
+      font-size: 30px;
+    }
+    .skills {
+      text-align: center;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      grid-gap: 1em;
+      padding: 0 5%;
+    }
+
+    .card {
+      border: #ccc;
+      background-color: rgba(215, 215, 215, 0.8);
+      margin: 0.7rem 0;
+      display: inline-block;
+      padding: 10%;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 8px;
+    }
+
+    .card:hover {
+      box-shadow: 2px 2px 2px 2px gray;
+    }
+    .get-in-touch {
+      text-align: center;
+    }
+    input {
+      height: 50px;
+      margin: 5px;
+      min-width: 300px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 5px #fff;
+    }
+    textarea {
+      margin: 5px;
+      min-width: 300px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 5px #fff;
+    }
+
+    button {
+      background-color: rgba(121, 156, 97, 0.849);
+      font-size: 30px;
+      color: #fff;
+      height: 50px;
+      margin: 5px;
+      min-width: 300px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 5px #fff;
+      border: none;
+    }
+
+    button:hover {
+      box-shadow: 2px 2px 2px 2px rgb(230, 236, 204);
+    }
+
+    .footer {
+      background-color: rgba(215, 215, 215, 0.8);
+      padding: 2% 5%;
+      display: flex;
+    }
+    .footer-section-right {
+      flex: 1;
+    }
+    .footer-section-right span {
+      font-size: 28px;
+    }
+    .footer-section-left {
+      flex: 1;
+    }
+    .made-by-section {
+      text-align: center;
+      background-color: rgba(151, 147, 147, 0.8);
+      padding: 1%;
+      margin: 0;
+    }
+    .made-by-section span {
+      font-size: 25px;
+    }
+  </style>
+  <body>
+    <div class="top-bar">
+      <span class="title">DILEEP KUMAR</span>
+      <span>Web and App Developer</span>
+    </div>
+    <div class="header">
+      <img
+        src="https://www.oclocksoftware.com/blog/wp-content/uploads/2017/08/difference-between-mobile-app-and-website-development.png"
+        width="80%"
+      />
+    </div>
+    <br /><br /><br /><br />
+    <div class="description">
+      <span class="title">ABOUT ME</span>
+      <br />
+      <span class="about">
+        I'm a full-stack developer with more than 2 years of experience.
+        Specializing in creating a web application using React, NodeJS,
+        SQL/NoSQL, Docker. with a great desire to create and provide quality
+        services, help you with your ideas. In developing the focus on the
+        quality and usability of the product. Just be supported/refining your
+        product.
+      </span>
+    </div>
+    <br /><br /><br /><br />
+    <div class="skills">
+      <span class="title">MY SKILS</span>
+      <br /><br />
+      <div class="skills-container">
+        <div class="card">
+          HTML
+        </div>
+        <div class="card">
+          CSS
+        </div>
+        <div class="card">
+          JavaScript
+        </div>
+        <div class="card">
+          React JS
+        </div>
+        <div class="card">
+          Node JS
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="get-in-touch">
+      <span class="title">GET IN TOUCH</span>
+      <br /><br />
+      <form>
+        <input type="text" placeholder="Name" /><br />
+        <input type="email" placeholder="Email" /><br />
+        <textarea placeholder="Enter your Message Here...." rows="10"></textarea
+        ><br />
+        <button>SEND</button>
+      </form>
+    </div>
+    <br /><br /><br /><br />
+    <div class="footer">
+      <div class="footer-section-left">
+        <span class="title">My Portfolio</span>
+      </div>
+      <div class="footer-section-right">
+        <label class="title">Contact</label>
+        <span>Email: </span
+        ><span style="font-weight: bold;">amranidileep44@gmail.com</span><br />
+        <span>Phone: </span
+        ><span style="font-weight: bold;">+923368933075</span>
+      </div>
+    </div>
+
+    <div class="made-by-section">
+      <span>Made with ❤️ by DILEEP KUMAR</span>
+    </div>
+  </body>
+</html>
